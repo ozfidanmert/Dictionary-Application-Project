@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionary Application</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+
+    <audio id="sound"></audio>
+    <div class="container">
+
+        <div class="search-box">
+            <input placeholder="Type the word here..." class="inputSearch" type="text">
+            <button class="btnSearch">Search</button>
+        </div>
+
+        <div class="result">
+
+            <div class="word">
+                <h1 class="word-title">Simple</h1>
+                <button onclick="soundPlay()" class="volumeBtn">
+                    <i  class='bx bxs-volume-full volume'></i>
+                </button>
+            </div>
+
+            <div class="details">
+                <p>pos</p>
+                <p>sample/sample</p>
+            </div>
+
+            <p class="word-meaing">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum laudantium, atque perspiciatis
+                quisquam ex maiores!
+            </p>
+            <p class="word-example">
+                Lorem ipsum dolor sit.
+            </p>
+
+
+        </div>
+
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

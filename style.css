@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(180, 168, 149);
+}
+
+.container{
+    width: 90vmin;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffff;
+    border-radius: 10px;
+    padding: 80px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    
+}
+.search-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.search-box .inputSearch{
+    width: 95%;
+    padding: 10px;
+    border: none;
+    border-bottom: 3px solid blueviolet;
+    outline: none;
+    margin-right: 20px;
+}
+.search-box .btnSearch{
+    padding: 13px 26px;
+    border-radius: 5px;
+    background: blueviolet;
+    color: #ffff;
+    cursor: pointer;
+    font-style: 22px;
+}
+
+.result{
+    position: relative;
+}
+.result .word{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+}
+.result h1{
+    font-size: 30px;
+    color: #1f194c;
+}
+.result .word .volumeBtn{
+    border: none;
+    outline: none;
+    background: #fff;
+
+}
+.result .word .volume{
+    font-size: 25px;
+    color: blueviolet;
+    cursor: pointer;
+
+}
+.result .details{
+    display: flex;
+    margin: 20px 0;
+    color: #b3b6b4;
+}
+.result .word-meaing{
+    color: #575a7b; 
+    margin-top: 15px;
+}
+.result .word-example{
+    color: #575a7b;
+    margin: 30px 0;
+    border-left: 5px solid blueviolet;
+    padding-left: 10px;
+    font-style: italic;
+}
